@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heroContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 375px;
+  padding: 1rem 2.8rem;
+  line-height: 1.5rem;
+  height: 384px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid navy;
+  border-radius: 30px;
+}
+.pic {
+  font-size: 30px;
+  color: orange;
+}
+ul{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    
+}
